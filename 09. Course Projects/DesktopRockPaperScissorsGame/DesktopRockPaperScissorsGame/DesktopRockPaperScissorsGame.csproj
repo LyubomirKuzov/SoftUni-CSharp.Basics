@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cave-painting.png" />
+    <None Remove="paper.png" />
+    <None Remove="scissors.png" />
+    <None Remove="toilet-paper.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cave-painting.png" />
+    <Resource Include="paper.png" />
+    <Resource Include="scissors.png" />
+    <Resource Include="toilet-paper.png" />
+  </ItemGroup>
+
+</Project>
